@@ -10,10 +10,6 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-.wrapper {
-  //background-color: #f2f2f2;
-}
-
 header {
   background-color: black;
   color: var(--white);
