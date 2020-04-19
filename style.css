@@ -1,10 +1,33 @@
+:root {
+  --white: #ffffff;
+  --red: #d4251b;
+
+  --color-primary: var(--red);
+  --color-secondary: #433875;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
 .wrapper {
-  background-color: #f2f2f2;
+  //background-color: #f2f2f2;
+}
+
+header {
+  background-color: black;
+  color: var(--white);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Germania One', cursive;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 .row {
@@ -15,4 +38,26 @@ h1, h2, h3, h4, h5, h6 {
 .video-wrapper {
   text-align: center;
   padding: 1rem;
+}
+
+
+ul {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  border-radius: 1rem;
+  padding: .5rem 1.2rem;
+  background-color: var(--color-primary);
+  color: var(--white);
+  margin: .3rem;
 }
